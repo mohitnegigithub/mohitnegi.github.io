@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+    --secondarycolor: #20C997;
+    --maincolor: #ffffff;
+    --thirdcolor: #dee3e4;
+}
+
+h1{
+    color: var(--maincolor);
+    font-size: 60px;
+    font-weight: 600;
+}
+
+h2{
+    size: 50px;
+    color: var(--maincolor);
+    font-weight: 600;
+}
+
+hr{
+    color: var(--secondarycolor);
+    width: 80px;
+    border-width: 3px;
+    margin: auto;    
+}
+
+/* Hero Section CSS */
+
+.herosection{
+    height: 100vh;
+    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(16, 16, 16, 0.9)),url("./images/herosection6.jpg") no-repeat fixed center center;
+    background-size: cover;
+    /* box-shadow: inset 0 0 0 2000px rgba(91, 91, 91, 0.3); */
+}   
+
+.herosection h1{
+    
+    margin: 20px 0px;
+
+}
+
+.herosection h1 span{
+    color: var(--secondarycolor);
+}
+
+.herosection h2:first-child{
+    font-size: 28px;
+    font-weight: 600;
+    color:var(--maincolor)
+}
+.herosection h2{
+    color: var(--thirdcolor);
+    font-size: 21px;
+    font-weight: 500;
+}
+.herosection button{
+    border: 2px solid var(--secondarycolor);
+    border-radius: 30px;
+    padding: 15px 30px;
+    background-color: transparent;   
+    
+}
+.herosection button a{ 
+    color:var(--secondarycolor);
+    text-decoration: none;
+}
+
+
+
+
+
+
+
