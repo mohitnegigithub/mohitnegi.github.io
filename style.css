@@ -9,6 +9,7 @@
     --secondarycolor: #20C997;
     --maincolor: #ffffff;
     --thirdcolor: #dee3e4;
+    --heading-background-text:#6c757d;
 }
 
 h1{
@@ -18,9 +19,36 @@ h1{
 }
 
 h2{
-    size: 50px;
+    font-size: 36px;
     color: var(--maincolor);
     font-weight: 600;
+    position: relative;
+    
+}
+
+h3{
+    color: var(--maincolor);
+    font-size: 28px;
+    font-weight: 600;
+}
+p{
+    color: var(--heading-background-text);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+p b{
+    color: var(--maincolor);
+}
+
+
+.background-heading-h2{
+    color: var(--heading-background-text);
+    font-size: 130px;
+    position: relative;
+    top: 85px;
+    opacity: .1;
 }
 
 hr{
@@ -28,6 +56,10 @@ hr{
     width: 80px;
     border-width: 3px;
     margin: auto;    
+}
+
+span{
+    color: var(--secondarycolor);
 }
 
 /* Hero Section CSS */
@@ -45,9 +77,9 @@ hr{
 
 }
 
-.herosection h1 span{
+/* .herosection h1 span{
     color: var(--secondarycolor);
-}
+} */
 
 .herosection h2:first-child{
     font-size: 28px;
@@ -70,6 +102,31 @@ hr{
     color:var(--secondarycolor);
     text-decoration: none;
 }
+
+/* Know me more */
+
+.my-info hr{
+    color: var(--maincolor);
+    width: 100%;
+    border-width: 1px;
+    margin: 6px 0px;
+}
+
+.my-info p{
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--thirdcolor);
+}
+
+.my-achivements div{
+    border-right: 1px solid var(--thirdcolor);
+    
+}
+
+.my-achivements div:last-child{
+    border: none;
+}
+
 
 
 
