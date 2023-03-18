@@ -31,6 +31,13 @@ h3{
     font-size: 28px;
     font-weight: 600;
 }
+
+h4{
+    color: var(--maincolor);
+    font-size: 16px;
+    font-weight: 400;
+
+}
 p{
     color: var(--heading-background-text);
     font-size: 18px;
@@ -113,7 +120,7 @@ span{
 }
 
 .my-info p{
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 500;
     color: var(--thirdcolor);
 }
@@ -125,6 +132,10 @@ span{
 
 .my-achivements div:last-child{
     border: none;
+}
+
+.my-achivements h2{
+    font-size: 48px;
 }
 
 
